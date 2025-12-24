@@ -5,7 +5,12 @@ import { russianAlphabet } from "./languages/russian.js";
 
 /**
  * The main class export
- * @param language - The specified value will determine the returned alphabet
+ * @param language - The specified value will determine the alphabet that will be returned 
+ * @returns The letters of the specified alphabet
+ * @example
+ * import { Alphabet } from "words-global";
+ * const alphabet = new Alphabet("english");
+ * console.log(alphabet.getLetters()); // Outputs the English alphabet letters
  */
 export class Alphabet {
   constructor(language) {

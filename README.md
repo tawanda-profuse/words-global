@@ -9,7 +9,7 @@ The first approach is simpler and keeps the markdown syntax.
 ## Usage
 
 ```JavaScript
-import { Alphabet } from "./index.js";
+import { Alphabet } from "words-global";
 
 const alphabet = new Alphabet("english");
 console.log(alphabet.getLetters());
