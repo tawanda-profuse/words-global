@@ -8,6 +8,12 @@ The first approach is simpler and keeps the markdown syntax.
 
 ## Usage
 
+```bash
+npm install words-global
+```
+
+**JavaScript code**:
+
 ```JavaScript
 import { Alphabet } from "words-global";
 
