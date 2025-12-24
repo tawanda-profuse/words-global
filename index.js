@@ -1,5 +1,6 @@
 import { arabicAlphabet } from "./languages/arabic.js";
 import { englishAlphabet } from "./languages/english.js";
+import { frenchLetters } from "./languages/french.js";
 import { russianAlphabet } from "./languages/russian.js";
 
 /**
@@ -19,6 +20,8 @@ export class Alphabet {
         return russianAlphabet;
       case "arabic":
         return arabicAlphabet;
+      case "french":
+        return frenchLetters;
       default:
         return "Language not found";
     }

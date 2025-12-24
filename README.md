@@ -2,6 +2,10 @@
 
 Providing access to alphabets from different languages and dialects. This package aims to solve the problem of lacking access to alphabetic characters for various use cases.
 
+![Words Global icon](./icon.png)
+
+The first approach is simpler and keeps the markdown syntax.
+
 ## Usage
 
 ```JavaScript
@@ -17,6 +21,7 @@ console.log(alphabet.language);
 - [**English**](/languages/english.js)
 - [**Russian**](/languages/russian.js) - [source](https://en.wikipedia.org/wiki/Russian_alphabet)
 - [**Arabic**](/languages/russian.js) - [source](https://www.arabichomeschool.com/post/arabic-alphabet-with-words-alif-to-ya-vocabulary-builder-for-kids)
+- [French](/languages/french.js)
 
 ## Contribution Guide
 
@@ -30,4 +35,4 @@ console.log(alphabet.language);
 ## Rules
 
 1. Only use double-quotes.
-2. Always use semi-colons;
+2. Always use semi-colons.
