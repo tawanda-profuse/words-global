@@ -4,8 +4,6 @@ Providing access to alphabets from different languages and dialects. This packag
 
 ![Words Global icon](./icon.png)
 
-The first approach is simpler and keeps the markdown syntax.
-
 ## Usage
 
 ```bash
@@ -28,6 +26,7 @@ console.log(alphabet.language);
 - [**Russian**](/languages/russian.js) - [source](https://en.wikipedia.org/wiki/Russian_alphabet)
 - [**Arabic**](/languages/russian.js) - [source](https://www.arabichomeschool.com/post/arabic-alphabet-with-words-alif-to-ya-vocabulary-builder-for-kids)
 - [French](/languages/french.js)
+- [Shona](/languages/shona.js)
 
 ## Contribution Guide
 

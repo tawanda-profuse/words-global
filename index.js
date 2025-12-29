@@ -2,6 +2,7 @@ import { arabicAlphabet } from "./languages/arabic.js";
 import { englishAlphabet } from "./languages/english.js";
 import { frenchLetters } from "./languages/french.js";
 import { russianAlphabet } from "./languages/russian.js";
+import { shonaAlphabet } from "./languages/shona.js";
 
 /**
  * The main class export
@@ -27,6 +28,8 @@ export class Alphabet {
         return arabicAlphabet;
       case "french":
         return frenchLetters;
+      case "shona":
+        return shonaAlphabet;
       default:
         return "Language not found";
     }

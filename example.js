@@ -1,4 +1,4 @@
 import { Alphabet } from "./index.js";
 
-const alphabet = new Alphabet("arabic");
-console.log(alphabet.getLetters());
+const alphabet = new Alphabet("shona");
+console.log(alphabet.getLetters().length);
